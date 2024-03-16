@@ -194,3 +194,34 @@ footer {
     padding: 5px 10px 5px 10px;
   }
   
+  @media (max-width: 768px) {
+    .container {
+        padding: 20px; /* Adjusted padding for smaller screens */
+        min-height: 35vh;
+    }
+
+    .app-name {
+        font-size: 30px; /* Adjusted font size for smaller screens */
+    }
+
+    .row {
+        flex-direction:row; /* Stacking input and button vertically */
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    input {
+        margin-bottom: 10px; /* Added spacing between input and button */
+        
+    }
+
+    button {
+        width: 10%; /* Button width takes full width of the container */
+
+        
+    }
+
+    footer {
+        font-size: 14px; /* Adjusted font size for footer text */
+    }
+}
