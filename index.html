@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Today To-Do</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2 class="app-name">
+          To-Do Today<img class="logo" src="todo-logo.svg" alt="app-logo" />
+        </h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your task">
+            <button onclick="addTask()" >Add</button>
+        </div>
+        <div class="row2">
+            <ul class="list" id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li> -->
+            </ul>
+        </div>
+      </div>
+      
+    </div>
+    <footer class="footer">
+        <p>Developed by <a href="https://github.com/mehrab-shakib" target="_blank">mehrab-shakib</a></p>
+        <p> Get the <a href="https://github.com/mehrab-shakib/your-repo-name" target="_blank">Source Code</a></p>
+      </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
